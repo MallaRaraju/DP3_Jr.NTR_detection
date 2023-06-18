@@ -12,6 +12,6 @@
   * I built two models with different heads and VGG16 as the backbone. The model architectures are provided in the same repo as .png images.
 * step 5: Define the loss function
   * For training the data, I used Adam optimizer and for classification, BinaryCrossEntropy was used.
-  * For regression, I build a simple loss function, which is similar to the loss function of yolo with a small change.
+  * For regression, I build a simple loss function, which is similar to the loss function of YOLO with a small change.
 * step 6:Train and save
-  * Finally the models were trained and saved, the weights are available in this repo.
+  * Finally the models were trained and saved.
